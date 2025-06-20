@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pantauan CCTV - Penjualan & Pemasangan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pantauan CCTV</h1>
+    <p>Menerima pemasangan, instalasi, dan perbaikan CCTV</p>
+  </header>
+  <section class="services">
+    <h2>Layanan Kami</h2>
+    <ul>
+      <li>✅ Pemasangan & perbaikan kamera CCTV</li>
+      <li>✅ Instalasi Access Door</li>
+      <li>✅ Konsultasi sistem keamanan gratis</li>
+    </ul>
+  </section>
+  <section class="products">
+    <h2>Katalog Produk</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="images/camera1.jpg" alt="Kamera CCTV AHD">
+        <h3>Kamera AHD 2MP</h3>
+        <p>Harga: Rp 450.000</p>
+      </div>
+      <div class="product">
+        <img src="images/camera2.jpg" alt="Kamera IP CCTV">
+        <h3>Kamera IP 5MP</h3>
+        <p>Harga: Rp 850.000</p>
+      </div>
+    </div>
+  </section>
+  <section class="live-view">
+    <h2>Pantauan CCTV</h2>
+    <p>Demo live view (placeholder)</p>
+    <div class="live-placeholder">[Live CCTV Placeholder]</div>
+  </section>
+  <footer>
+    <p>Hubungi kami via WhatsApp: 
+      <a href="https://wa.me/6281219029994" target="_blank">+62 812-1902-9994</a>
+    </p>
+  </footer>
+</body>
+</html>
