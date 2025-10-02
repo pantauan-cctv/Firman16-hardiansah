@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandala Tekniora</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #f0f0f0;
+    }
+    header {
+      background: #161b22;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 120px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #f0f0f0;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .service-item {
+      background: #21262d;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 15px 0;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #21262d;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #00e676;
+    }
+    a.whatsapp {
+      display: inline-block;
+      margin-top: 10px;
+      background: #25d366;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .maps iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #161b22;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Mandala Tekniora">
+    <h1>Mandala Tekniora</h1>
+    <p>Jasa Instalasi CCTV, Access Door, AC, dan Pengelasan</p>
+    <a class="whatsapp" href="https://wa.me/6281219029994">Hubungi via WhatsApp</a>
+  </header>
+
+  <section class="services">
+    <h2>Layanan Kami</h2>
+    <div class="service-item">📹 Pemasangan & Perbaikan CCTV</div>
+    <div class="service-item">🚪 Pemasangan Access Door</div>
+    <div class="service-item">❄️ Pemasangan & Perawatan AC</div>
+    <div class="service-item">⚡ Pengelasan Pagar, Kanopi, & Tralis</div>
+  </section>
+
+  <section class="pricing">
+    <h2>Daftar Harga Paket CCTV</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Paket CCTV 2 Kamera</h3>
+        <p>DVR Hikvision 4CH, 2 Kamera 2MP Indoor, HDD 500GB, Power Supply, Kabel 20m, 4 BNC</p>
+        <p class="price">Rp 3.800.000</p>
+      </div>
+      <div class="card">
+        <h3>Paket CCTV 4 Kamera</h3>
+        <p>DVR Hikvision 4CH, 4 Kamera 2MP, HDD 500GB, Power Supply, Kabel 50m, 8 BNC</p>
+        <p class="price">Rp 5.600.000</p>
+      </div>
+      <div class="card">
+        <h3>Paket CCTV 8 Kamera</h3>
+        <p>DVR Hilook 8CH, 8 Kamera 2MP, HDD 1TB, Power Supply, Kabel 100m, 16 BNC</p>
+        <p class="price">Rp 10.500.000</p>
+      </div>
+      <div class="card">
+        <h3>Paket CCTV 16 Kamera</h3>
+        <p>DVR Hikvision 16CH, 16 Kamera 2MP, HDD 1TB, Power Supply, Kabel 200m, 32 BNC</p>
+        <p class="price">Rp 19.535.000</p>
+      </div>
+      <div class="card">
+        <h3>WiFi Cam EZVIZ Indoor</h3>
+        <p>Kamera EZVIZ Indoor + SD Card 64GB + Adaptor + Instalasi + Koneksi HP</p>
+        <p class="price">Rp 600.000</p>
+      </div>
+      <div class="card">
+        <h3>WiFi Cam EZVIZ Outdoor</h3>
+        <p>Kamera EZVIZ Outdoor + SD Card 64GB + Adaptor + Instalasi + Koneksi HP</p>
+        <p class="price">Rp 900.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Galeri Proyek</h2>
+    <div class="gallery-grid">
+      <img src="https://via.placeholder.com/400x250?text=Proyek+CCTV" alt="Proyek CCTV">
+      <img src="https://via.placeholder.com/400x250?text=Access+Door" alt="Proyek Access Door">
+      <img src="https://via.placeholder.com/400x250?text=Pemasangan+AC" alt="Proyek AC">
+      <img src="https://via.placeholder.com/400x250?text=Pengelasan+Pagar" alt="Proyek Las Pagar">
+      <img src="https://via.placeholder.com/400x250?text=Kanopi+Tralis" alt="Proyek Kanopi Tralis">
+    </div>
+  </section>
+
+  <section class="maps">
+    <h2>Lokasi Kami</h2>
+    <iframe src="https://www.google.com/maps?q=Jl.+Verdi+Timur+V,+Dukuh,+Cikupa,+Tangerang,+Banten&output=embed"></iframe>
+  </section>
+
+  <footer>
+    <p>Mandala Tekniora © 2025 | Telp/WA: 081219029994</p>
+  </footer>
+</body>
+</html>
